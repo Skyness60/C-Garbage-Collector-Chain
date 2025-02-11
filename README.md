@@ -22,7 +22,7 @@ Ce projet implémente un Garbage Collector (GC) en C utilisant une liste chaîn�
   - `remove_ptr` supprime un pointeur spécifique de la liste chaînée. Si le nombre de pointeurs dans la liste descend sous un certain seuil, la liste est redimensionnée pour optimiser l’utilisation de la mémoire.
 
 - **Debugging** : 
-  - `debug_gc` affiche l'état actuel du collecteur, y compris la capacité, le nombre d'éléments dans la liste chaînée et la liste des pointeurs stockés.
+  - `debug_gcc` affiche l'état actuel du collecteur, y compris la capacité, le nombre d'éléments dans la liste chaînée et la liste des pointeurs stockés.
 
 ## Init Makefile for your project
 
